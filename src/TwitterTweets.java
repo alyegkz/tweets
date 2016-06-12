@@ -97,7 +97,7 @@ public class TwitterTweets {
 
 		System.out.println(allTweetsTrump);
 
-		listInDatei(statuses, new File("texte/trumptweets.txt"));
+		listInDatei(allTweetsTrump, new File("texte/trumptweets.txt"));
 		listInDatei(allTweetsClinton, new File("texte/clintontweets.txt"));
 	}
 
